@@ -1,0 +1,1 @@
+DB::table('users')->truncate(); $old = DB::connection('mysql')->select('select * from mgmp_pkk_jabar.users where email LIKE ''%example.com%'''); foreach($old as $u) { DB::table('users')->insert((array)$u); } echo 'Done\n';

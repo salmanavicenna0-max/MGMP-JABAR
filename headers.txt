@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Host: 127.0.0.1:8000
+Date: Tue, 30 Jun 2026 00:29:55 GMT
+Connection: close
+X-Powered-By: PHP/8.4.16
+Content-type: text/html; charset=UTF-8
+
